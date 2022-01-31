@@ -19,7 +19,7 @@ require'nvim-treesitter.configs'.setup {
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
 parser_config.func = {
   install_info = {
-    url = "/root/parsers/tree-sitter-func",
+    url = "~/parsers/tree-sitter-func",
     files = {"src/parser.c"},
 
     branch = "main",
