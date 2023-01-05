@@ -6,7 +6,7 @@
 
 3. Clone the FunC language support repository into the `parsers` directory in your home directory:
 ``` 
-cd ~ && mkdir parsers & cd parsers && git clone https://github.com/akifoq/tree-sitter-func.git
+cd ~ && mkdir parsers && cd parsers && git clone https://github.com/akifoq/tree-sitter-func.git
 ```
 
 4. Install dependencies (`Node JS` and `npm` must be installed before):
@@ -26,7 +26,7 @@ tree-sitter generate
 
 7. Create link to queries
 ```
-ln -s /root/parsers/tree-sitter-func/queries/* /root/.config/nvim/queries/func
+ln -s /root/parsers/tree-sitter-func/queries /root/.config/nvim/queries/func
 ```
 
 8. Clone this repository:
